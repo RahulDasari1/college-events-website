@@ -6,6 +6,86 @@
   <title>CMRIT UPDATES</title>
   <link rel="stylesheet" href="styles.css">
   <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+  <style>
+    body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 1rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 40px; /* Adjust the size of the logo as needed */
+  margin-right: 1rem;
+}
+
+.logo h1 {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin-left: 1rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.nav-links a:hover {
+  background-color: #555;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+}
+
+.search-container input[type="text"] {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
+}
+
+.search-container button {
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+.search-container button:hover {
+  background-color: #0056b3;
+}
+
+  </style>
 </head>
 <body>
   <header>
@@ -13,8 +93,8 @@
       <div class="logo"><img src="CMR-IT-logo-1.png" alt="CMR-logo"><img src="acc.png" alt="CMR-logo">
       <h1>CMR INSTITUTE OF TECHNOLOGY, HYDERABAD</h1></div>
       <ul>
-        <li><a href="#features">Home</a></li>
-        <li><a href="#features">Upcoming Events</a></li>
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#feature1">Upcoming Events</a></li>
         <li><a href="#features">Features</a></li>
         <li><a href="#cta">Get Started</a></li>
         <li>
@@ -47,9 +127,9 @@
       <button><a href="learnmore.html" style="color: aliceblue;">Learn More</a></button>
       </div>
     </section>
-    <section id="feature">
+    <section id="feature1">
       <h2>Upcoming Events</h2>
-      <p>Describe the first feature here.</p>
+      <p>"Celebrating Diversity: Embrace the Colors of Cultures"</p>
       <ul id="events-list">
         <div class="feature">
           <i class="fa fa-check"></i>
@@ -61,9 +141,9 @@
                 </div>
               </div>
             </a>
-        </div>              <div><button>Register Now</button></div>
-              
-
+        </div>              
+        <div><button><a href="reg.html"  style="color: aliceblue;">Register Now</a> </button></div>
+    
         <!-- Event list will be dynamically populated using JavaScript -->
       </ul>
       
@@ -76,13 +156,29 @@
       <h2>Features</h2>
       <div class="feature">
         <i class="fa fa-check"></i>
-        <h3>Feature 1</h3>
-        <p>Describe the first feature here.</p>
+        <h3>Illuminate 2k23</h3>
+        <a href="book-details.html">
+          <div class="book-card">
+            <img src="ill.jpg" alt="Book 3">
+            <div class="book-info">
+            </div>
+          </div>
+        </a>
+        <p>We Keep adding new touches to Make it a special event,
+          Presenting you bts of the Illuminate fest 2k22</p>
       </div>
       <div class="feature">
         <i class="fa fa-check"></i>
-        <h3>Feature 2</h3>
-        <p>Describe the second feature here.</p>
+        <h3>Scintillation 2k23</h3>
+        <a href="book-details.html">
+          <div class="book-card">
+            <img src="sci.jpg" alt="Book 3">
+            <div class="book-info">
+            </div>
+          </div>
+        </a>
+        <p> 
+          Glimpses of cultural performances ~ Scintillations 2k22 ~ 17th Annual Day Celebrations</p>
       </div>
       <!-- Add more features as needed -->
     </section>
@@ -90,7 +186,7 @@
     <section id="cta">
       <h2>Get Started Today</h2>
       <p>Ready to get started? Sign up now and unlock the full potential of our platform.</p>
-      <button>Sign Up</button>
+      <button><a href="sup.html"  style="color: aliceblue;">Sign Up</a></button>
     </section>
   </main>
 
